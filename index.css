@@ -110,24 +110,26 @@ h1 {
 }
 
 .info {
+    position: relative;
   width: 100%;
   margin: 0 auto;
-  background-color: black;
-  opacity: 0.6;
+  background-color: rgba(0,0,0,0.5);
   padding: 10px 0;
+  height: 300px;
 }
 
-.info :hover {
-  background-color: none;
-  opacity: 1;
+.info > div {
+    position: absolute;
+    top: 5px;
 }
 
-.info > p {
+
+.info > div > p {
   color: white;
   width: fit-content;
   margin: 5px auto;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .tweets {

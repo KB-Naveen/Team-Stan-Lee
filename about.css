@@ -127,3 +127,12 @@ h1 {
 .char > img {
     width: 80%;
 }
+
+@media all and (max-width: 850px){
+
+    .banner {
+        background-size:100% 550px;
+        align-items: center;
+        height: 550px;
+      }
+}

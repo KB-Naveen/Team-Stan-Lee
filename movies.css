@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 nav {
   background: #151515;
@@ -93,74 +94,64 @@ nav ul li.btn.hide i:before {
 
 .banner {
   position: relative;
-  background-image: url("https://images.hdqwalls.com/download/2019-avengers-endgame-cm-1920x1080.jpg");
-  background-size: cover;
+  background-image: url("https://wallpaperaccess.com/full/342019.jpg");
+  background-size: 100% 600px;
   align-items: center;
-  height: 500px;
+  height: 600px;
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 55px;
   width: fit-content;
-  padding-top: 100px;
+  padding-top: 170px;
   padding-bottom: 50px;
   margin: 0 auto;
   text-shadow: 4px 4px 4px black;
 }
 
-.info {
-    position: relative;
+.char {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: 400px;
+  width: 90%;
+  height: fit-content;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+}
+
+.card {
+  background-color: red;
+  position: relative;
+  width: 180px;
+  margin: 20px 20px;
+}
+
+.card > img {
   width: 100%;
-  margin: 0 auto;
-  background-color: rgba(0,0,0,0.5);
-  padding: 10px 0;
-  height: 300px;
 }
 
-.info > div {
-    position: absolute;
-    top: 5px;
+.blackbox {
+  padding-top: 10px;
+  width: 100%;
+  height: 150px;
+  top: 200px;
+  background-color: black;
 }
 
-
-.info > div > p {
-  color: white;
+.card > div > p {
   width: fit-content;
-  margin: 5px auto;
+  margin: 0px auto;
   text-align: center;
-  font-weight: 500;
-  font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;;
+  color: white;
+  font-weight: bold;
 }
 
-.tweets {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 450px;
-    width: 90%;
-    height: 300px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
-}
-
-blockquote.twitter-tweet {
-    width: 300px;
-}
-
-.loader {
-  margin: 20px auto;
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.char > a :hover {
+  background-color: red;
 }

@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 nav {
   background: #151515;
@@ -93,74 +94,79 @@ nav ul li.btn.hide i:before {
 
 .banner {
   position: relative;
-  background-image: url("https://images.hdqwalls.com/download/2019-avengers-endgame-cm-1920x1080.jpg");
-  background-size: cover;
+  background-image: url("https://images.hdqwalls.com/wallpapers/i-am-iron-man-4k-ky.jpg");
+  background-size: 100% 700px;
   align-items: center;
-  height: 500px;
+  height: 700px;
 }
 
-h1 {
+.name {
   color: white;
   font-size: 55px;
   width: fit-content;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 50px;
   margin: 0 auto;
   text-shadow: 4px 4px 4px black;
-}
-
-.info {
-    position: relative;
-  width: 100%;
-  margin: 0 auto;
-  background-color: rgba(0,0,0,0.5);
-  padding: 10px 0;
-  height: 300px;
-}
-
-.info > div {
-    position: absolute;
-    top: 5px;
-}
-
-
-.info > div > p {
-  color: white;
-  width: fit-content;
-  margin: 5px auto;
   text-align: center;
-  font-weight: 500;
-  font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;;
 }
 
-.tweets {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.char {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+  padding-bottom: 50px;
+  top: 500px;
+  width: 90%;
+  height: fit-content;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  border:2px red;
+  border-style: solid;
+}
+
+.card {
+  background-color: red;
+  position: relative;
+  width: 180px;
+  margin: 20px 20px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.bio > h1 {
+    color: black;
+  font-size: 55px;
+  width: fit-content;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.bio > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.vid {
     position: absolute;
-    top: 450px;
-    width: 90%;
-    height: 300px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-blockquote.twitter-tweet {
-    width: 300px;
-}
-
-.loader {
-  margin: 20px auto;
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+.vidcon {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }

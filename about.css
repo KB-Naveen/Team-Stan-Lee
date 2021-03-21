@@ -116,7 +116,6 @@ h1 {
     flex-wrap: wrap;
     position: absolute;
     padding-top: 50px;
-    padding-bottom: 50px;
     top: 400px;
     width: 90%;
     height: fit-content;
@@ -135,4 +134,8 @@ h1 {
         align-items: center;
         height: 550px;
       }
+}
+
+h2 {
+    color: green;
 }

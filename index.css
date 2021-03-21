@@ -91,6 +91,28 @@ nav ul li.btn.hide i:before {
   }
 }
 
-.background {
-  width: 100%;
+.banner {
+  background-image: url("https://images.hdqwalls.com/download/2019-avengers-endgame-cm-1920x1080.jpg");
+  background-size: cover;
+  align-items: center;
+  height: 500px;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  width: fit-content;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  text-shadow: 6px 6px black;
+}
+
+.info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info > p {
+    color:white;
 }
